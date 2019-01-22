@@ -1,0 +1,158 @@
+#chartContainer { 
+    overflow-x: scroll;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+    background-color: #99C1DC;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: rgb(111, 153, 180);
+}
+
+.button:active {
+    background-color: rgb(111, 153, 180);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pokemon_img {
+    max-width: 100%;
+    height: auto;
+}
+
+.whiteBackground {
+    background-color: white;
+}
+
+.paddingBottom {
+    padding-bottom: 5%;
+}
+
+.paddingTop {
+    padding-top: 1%;
+}
+
+td {
+    border: 1px solid #000000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color:#99C1DC;
+}
+
+#Grass {
+    background-color: rgba(122,199,76,0.2);
+}
+
+#Normal {
+    background-color: rgba(168,167,122,0.2);
+}
+
+#Fire {
+    background-color: rgba(238,129,48,0.2);
+}
+
+#Water {
+    background-color: rgba(99,144,240,0.2);
+}
+
+#Electric {
+    background-color: rgba(247,208,44,0.2);
+}
+
+#Ice {
+    background-color: rgba(150,217,214,0.2);
+}
+
+#Fighting {
+    background-color: rgba(194,46,40,0.2);
+}
+
+#Poison {
+    background-color: rgba(163,62,161,0.2);
+}
+#Ground {
+    background-color: rgba(226,191,101,0.2);
+}
+
+#Flying {
+    background-color: rgba(169,143,243,0.2);
+}
+
+#Psychic {
+    background-color: rgba(249,85,135,0.2);
+}
+
+#Bug {
+    background-color: rgba(166,185,26,0.2);
+}
+
+#Rock {
+    background-color: rgba(182,161,54,0.2);
+}
+
+#Ghost {
+    background-color: rgba(115,87,151,0.2);
+}
+
+#Dragon {
+    background-color: rgba(111,53,252,0.2);
+}
+
+#Dark {
+    background-color: rgba(112,87,70,0.2);
+}
+
+#Steel {
+    background-color: rgba(183,183,206,0.2);
+}
+
+#Fairy {
+    background-color: rgba(214,133,173,0.2);
+}
+
+#None {
+    background-color: rgba(255,255,255,0.4);
+}
